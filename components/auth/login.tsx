@@ -6,8 +6,8 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback } from "react";
 
-import { LoginFormType } from "../../helpers/types";
-import { LoginSchema } from "../../helpers/schemas";
+import { LoginFormType } from "../helpers/types";
+import { LoginSchema } from "../helpers/schemas";
 import { createAuthCookie } from "../../actions/auth.action";
 
 export const Login = () => {

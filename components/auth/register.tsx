@@ -6,8 +6,8 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback } from "react";
 
-import { RegisterSchema } from "../../helpers/schemas";
-import { RegisterFormType } from "../../helpers/types";
+import { RegisterSchema } from "../helpers/schemas";
+import { RegisterFormType } from "../helpers/types";
 import { createAuthCookie } from "../../actions/auth.action";
 
 export const Register = () => {
