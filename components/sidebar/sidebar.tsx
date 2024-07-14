@@ -20,7 +20,6 @@ import { Logo } from "../icons";
 import { CollapseItems } from "./collapse-items";
 import { SidebarItem } from "./sidebar-item";
 import { SidebarMenu } from "./sidebar-menu";
-import { CompaniesDropdown } from "./companies-dropdown";
 import { Sidebar } from "./sidebar.styles";
 
 export const SidebarWrapper = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Accounts } from "@/components/accounts";
+import { Accounts } from "../../../components/accounts/index";
 
 const accounts = () => {
   return <Accounts />;

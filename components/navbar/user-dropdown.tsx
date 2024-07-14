@@ -9,9 +9,9 @@ import {
 import React, { useCallback } from "react";
 import { useRouter } from "next/navigation";
 
-import { DarkModeSwitch } from "./darkmodeswitch";
+import { deleteAuthCookie } from "../../actions/auth.action";
 
-import { deleteAuthCookie } from "@/actions/auth.action";
+import { DarkModeSwitch } from "./darkmodeswitch";
 
 export const UserDropdown = () => {
   const router = useRouter();
