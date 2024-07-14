@@ -2,8 +2,12 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "RecruitX",
-  description: "Make beautiful websites regardless of your design experience.",
+  description: "Your next job destination here!",
   navItems: [
+    {
+      label: "Home",
+      href: "/",
+    },
     {
       label: "Dashboard",
       href: "/dashboard",
